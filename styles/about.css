@@ -1,0 +1,17 @@
+.about{
+    border-bottom: 3px solid aqua;
+    width: 20%;
+    font-size: 50px;
+    margin: 0;
+    
+}
+.presentacion{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.presentacion > p{
+   width: 20%;
+}
+.links{
+    margin-top: 70px;
+}

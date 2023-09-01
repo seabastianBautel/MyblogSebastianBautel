@@ -74,6 +74,33 @@ body {
 .links a{
     text-decoration: none;
 }
+.fa-solid{
+    position: left;
+    align-items: right;
+    color: white;
+}
+.fa-solid{
+    font-size: 15px;
+}
+.telefono >.fa-solid{
+    
+    position: absolute;
+    top:20px;
+    right: 20px; /* Posición inicial a la derecha */
+    transform: translateY(-50%);
+    transition: right 0.3s ease-in-out; /* Transición suave */
+   
+}
+.numero{
+font-size: smaller;
+   color:white;
+   margin: 0;
+   position: absolute;
+    top:20px;
+    right: 50px; /* Posición inicial a la derecha */
+    transform: translateY(-50%);
+    transition: right 0.3s ease-in-out; /* Transición suave */
+}
 @media screen and (max-width: 600px) {
     body {
         background-color: black;
