@@ -1,182 +1,332 @@
-body {
-    background-image: url(/assets/img/escritorioPC.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
     margin: 0;
     padding: 0;
 }
-
-.presentacion {
-    color: white;
-    padding-top: 150px;
-    padding-left: 150px;
-    padding-bottom: 100px;
+.contenedor{
     margin: 0;
-}
-
-.presentacion>h3 {
-    font-size: 15px;
     padding: 0;
-    margin: 0;
-}
-
-.presentacion>h2 {
-    font-size: 35px;
-    padding: 0;
-    margin: 0;
-}
-.presentacion>h1 {
-    margin: 0;
-    font-size: 85px;
-    padding: 0;
-}
-
-.Enlaces {
-    
-    padding-left: 150px;
-}
-
-.Enlaces a {
-    border: 3px solid white;
-    border-radius: 30px;
-    text-decoration: none;
-    padding: 5px 15px 5px 15px;
-    color: white;
-    margin-right:10px;
-}
-.header{
+    background-color: #4831d4;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.479);
-    padding: 15px;
-    
+    height: auto;
+
 }
-.header a{
+.menu{
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #4831d4;
     width: 100%;
-    margin-right:10px;
-    text-decoration: none;
-    color: white;
+    height: inherit;
 }
-.menu :hover{
-    background-color:rgba(61, 59, 59, 0.733);
+.menu >p{
+    padding-left: 20px;
+    color: #ccf381;
 }
-.Enlaces :hover{
-    background-color:rgba(61, 59, 59, 0.733);
+.MenuResponsive{
+    color:#ccf381;
 }
-.links{
-    color: white;
-    padding: 0px;
-    text-align: center;
-    position: relative;
-    margin-top: 100px;
-    bottom: 0;
-    width: 100%;
-    height: 75px;
-}
-.links i{
+.miNombre{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-   color: white;
-   margin-right:10px;
 }
-.links a{
-    text-decoration: none;
-}
-.fa-solid{
-    position: left;
-    align-items: right;
-    color: white;
-}
-.fa-solid{
-    font-size: 15px;
-}
-.telefono >.fa-solid{
-    
+.MenuResponsive >.fa-solid{
     position: absolute;
-    top:20px;
-    right: 20px; /* Posición inicial a la derecha */
+    top:35px;
+    right: 25px; /* Posición inicial a la derecha */
     transform: translateY(-50%);
     transition: right 0.3s ease-in-out; /* Transición suave */
    
 }
-.numero{
+.sector-1{
+    padding:  15vw;
+    background-color: #4831d4;
+    color:#ccf381;
+    position:relative;
+    text-align: left;
+}
+.sector-1 >h1{
+    font-size: 40px;
+}
+
+.sector-1-2{
+    background-color: #4831d4;
+    color:#ccf381;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+.sector-1-2 >p{
+    margin-top: 100px;
+    padding: 0;
+    padding-left: 0px;
+}
+.p2{
+    margin-left: 50px;
+}
+.sector-2{
+    text-align: left;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    background-color:azures;
+}
+.sector-2 >h2{
+    color: #4831d4;
+}
+.sector-2 >p{
+    color: #4831d4;
+    align-items: center;
+    width: 60%;
+    text-align: justify;
+    font-size: x-small;
+}
+.sector-3{
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
+    width: 100%;
+    background-color: #4831d4;
+}
+.sector-3 >h2{
+color: #ccf381;
+   
+}
+.sector-3 >p{
+   
+    color: #ccf381;
+    align-items: center;
+    width: 60%;
+    font-size:small;
+   
+}
+.sector-4{
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.sector-4 >.section-1{
+    color: #4831d4;
+width: 80%;
+height: 300px;
 font-size: smaller;
-   color:white;
-   margin: 0;
-   position: absolute;
-    top:20px;
-    right: 50px; /* Posición inicial a la derecha */
-    transform: translateY(-50%);
-    transition: right 0.3s ease-in-out; /* Transición suave */
+   margin-left: 20px;
+   margin-right: 20px;
+    background-color:whitesmoke;
+    border-bottom: 2px solid #4831d4;
+}
+.sector-4 >.section-2{
+    color: #4831d4;
+    background-color:whitesmoke;
+    width: 80%;
+    height: 300px;
+    margin-left: 20px;
+   margin-right: 20px;
+}
+.section-1 >p{
+    width: 40%;
+    padding-left: 60px;
+}
+.section-1 >h2{
+    padding-left: 60px;
+    width: 40%;
+    
+}
+.section-1 >a{
+    padding-top: 15px;
+    padding-left: 25px;
+    width: 40%;
+    height: 30px;
+    margin-left: 60px;
+    position: absolute; /* Establece la posición absoluta para el párrafo */
+    bottom: 400px; /* Coloca el párrafo en la parte inferior del contenedor */
+    border: 2px solid #4831d4;
+    text-decoration: none;
+}
+
+.section-2 >p{
+    width: 40%;
+    padding-left: 60px;
+}
+.section-2 >h2{
+    padding-left: 60px;
+    width: 40%;
+    
+}
+.section-2 >a{
+    font-size: small;
+    padding-top: 15px;
+    padding-left: 25px;
+    width: 40%;
+    height: 30px;
+    margin-left: 60px;
+    position: absolute; /* Establece la posición absoluta para el párrafo */
+    bottom: 100px; /* Coloca el párrafo en la parte inferior del contenedor */
+    border: 2px solid #4831d4;
+    text-decoration: none;
+}
+.sector-5{
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.sector-5 h2{
+    color: #4831d4;
+}
+.sector-5 p{
+    color: #4831d4;
+    width: 80%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: #4831d4;
+    margin-top: 20px;
+}
+input{
+    border: 0;
+    text-decoration: none;
+}
+.formulario input{
+
+    border-bottom: 2px solid #4831d4;
+    color: #4831d4;
+    width: 330px;
+margin-top: 20px;
+padding-top: 10px;
+}
+textarea{
+    border: 0;
+}
+#mensaje{
+    margin-top: 20px;
+    border-bottom: 2px solid #4831d4;
+    color: #4831d4;
+}
+
+/* .ordenador img {
+    display: block; /* Asegura que la imagen sea un elemento en bloque 
+    margin: auto;  Centrar horizontalmente 
+   */
+
+.sector-6{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+    width: 100%;
+    background-color:#3d155f;
+}
+.basic-content{
+    margin-left: 40px;
+}
+li{
+    
+    list-style: none;
+}
+li >a{
+    text-decoration: none;
+    list-style: none;
+    color:#ccf381;
+}
+.ul-mail{
+    padding-top: 80px;
+}
+.mail{
+    padding-bottom: 20px;
+    font-size: smaller;
+}
+.Work{
+    padding-bottom: 20px;
+    font-size: smaller;
+}
+#say-hello{
+    margin-left: 40px;
+    padding-top: 40px;
+    text-align: left;
+    position:absolute;
+    color: white;
+}
+.resume{
+    padding-bottom: 20px;
+    font-size: smaller;
+    margin-bottom: 60px;
+}
+.menu-footer{
+    width: 100%;
+    margin-bottom: 120px;
+    padding-top: 40px;
+}
+.footer-bottom{
+    border-bottom: 2px solid #ccf381;
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    align-items: center;
+    width: 100%;
+    
+}
+span{
+    color: #ccf381;
+}
+#copy{
+    margin-bottom: 20px;
+    margin-left: 60px;
+    padding-top: 300px;
+    color: #ccf381;
+}
+.sector-5 >a{
+    font-size: small;
+    padding-top: 15px;
+    padding-left: 25px;
+    width: 40%;
+    height: 30px;
+    margin-right: 140px;
+    position: absolute; /* Establece la posición absoluta para el párrafo */
+    bottom: -30px; /* Coloca el párrafo en la parte inferior del contenedor */
+    border: 2px solid #4831d4;
+    text-decoration: none;
 }
 #miMenu{
-    display: none;
-}
-.dropdown{
-    display: none;
-}
-@media screen and (max-width: 600px) {
-    .header{
-        background-color:rgba(61, 59, 59, 0.733);
-    }
-
-    .menu{
-        display: none;
-    }
-    #miMenu{
-        display: none;
-    }
-    #miMenu a{
-       
-        padding-left: 20px;
-        padding-bottom: 10px;
-        color: white;
-        text-decoration: none;
-    }
-    .dropdown{
-        display: block;
-        padding: 0;
-        margin: 0;
-        width: 10%;
-        height: 10%;
-    }
-    #miBoton{
-        width: 30%;
-    }
-    #miMenu{
-        margin: 0;
-       background-color: rgb(71, 71, 71);
-        display: block;
-        width: 40%;
-    }
-    #miMenu>a{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-    body {
-        background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(75, 78, 75));
-        background-size: cover;
-        margin: 0;
-    }
-    .Enlaces {
+    position:relative ;
+    z-index: 1;
     
-        padding-left: 20px;
-    }
+}
+li{
+    padding-bottom: 25px;
+}
+.menu-responsive{
     
-    .presentacion {
-        
-        padding-left: 20px;
-        padding-bottom: 20px;
-        margin: 0;
-    }
-
-    .links{
-        color: white;
-        padding: 0px;
-        text-align: center;
-        position: relative;
-        margin-top: 420px;
-        bottom: 0;
-        width: 100%;
-        height: 75px;
-    }
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: right;
+    width: 100%;
+    height:100%;
+    background-color:#4831d4;
+    
+}
+.menu-responsive > li a {
+    color:#ccf381;
 }
