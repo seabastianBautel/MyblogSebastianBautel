@@ -297,7 +297,7 @@ span{
     padding-top: 300px;
     color: #ccf381;
 }
-.sector-5 >a{
+.sector-5 >.submit{
     font-size: small;
     padding-top: 15px;
     padding-left: 25px;
