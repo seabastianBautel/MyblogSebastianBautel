@@ -240,6 +240,7 @@ textarea{
     background-color:#3d155f;
 }
 .basic-content{
+    width: 100%;
     margin-left: 40px;
 }
 li{
@@ -269,33 +270,17 @@ li >a{
     position:absolute;
     color: white;
 }
-.resume{
-    padding-bottom: 20px;
-    font-size: smaller;
-    margin-bottom: 60px;
-}
-.menu-footer{
-    width: 100%;
-    margin-bottom: 120px;
-    padding-top: 40px;
-}
-.footer-bottom{
-    border-bottom: 2px solid #ccf381;
-    display:flex;
-    flex-direction: row;
-    position:absolute;
-    align-items: center;
-    width: 100%;
-    
-}
 span{
     color: #ccf381;
 }
 #copy{
     margin-bottom: 20px;
     margin-left: 60px;
-    padding-top: 300px;
+    padding-top: 200px;
     color: #ccf381;
+}
+.copyright{
+    font-size: 30px;
 }
 .sector-5 >.submit{
     font-size: small;
@@ -329,4 +314,21 @@ li{
 }
 .menu-responsive > li a {
     color:#ccf381;
+}
+.FrontContenido{
+    padding-bottom: 50px;
+}
+.Miscontenidos{
+    color: aliceblue;
+}
+
+
+.linea {
+    text-align: center;
+    height: 40px;
+    background-color: #ccf381; /* Cambia esto al color que desees */
+    width: 100%;
+}
+.DerechosReservados{
+    text-align: center;
 }
