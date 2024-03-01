@@ -21,10 +21,10 @@ body{
 }
 .menu >p{
     padding-left: 20px;
-    color: #ccf381;
+    color: #ffffff;
 }
 .MenuResponsive{
-    color:#ccf381;
+    color:#ffffff;
 }
 .miNombre{
     font-family: 'Courier New', Courier, monospace;
@@ -41,7 +41,7 @@ body{
 .sector-1{
     padding:  15vw;
     background-color: #4831d4;
-    color:#ccf381;
+    color:#ffffff;
     position:relative;
     text-align: left;
 }
@@ -51,7 +51,7 @@ body{
 
 .sector-1-2{
     background-color: #4831d4;
-    color:#ccf381;
+    color:#ffffff;
     display: flex;
     flex-direction: row;
     position:relative;
@@ -82,7 +82,7 @@ body{
     align-items: center;
     width: 60%;
     text-align: justify;
-    font-size: x-small;
+    font-size:medium;
 }
 .sector-3{
     margin-top: 80px;
@@ -96,12 +96,12 @@ body{
     background-color: #4831d4;
 }
 .sector-3 >h2{
-color: #ccf381;
+color: #ffffff;
    
 }
 .sector-3 >p{
    
-    color: #ccf381;
+    color: #ffffff;
     align-items: center;
     width: 60%;
     font-size:small;
@@ -250,7 +250,7 @@ li{
 li >a{
     text-decoration: none;
     list-style: none;
-    color:#ccf381;
+    color:#ffffff;
 }
 .ul-mail{
     padding-top: 80px;
@@ -271,13 +271,13 @@ li >a{
     color: white;
 }
 span{
-    color: #ccf381;
+    color: #ffffff;
 }
 #copy{
     margin-bottom: 20px;
     margin-left: 60px;
     padding-top: 200px;
-    color: #ccf381;
+    color: #ffffff;
 }
 .copyright{
     font-size: 30px;
@@ -313,7 +313,7 @@ li{
     
 }
 .menu-responsive > li a {
-    color:#ccf381;
+    color:#ffffff;
 }
 .FrontContenido{
     padding-bottom: 50px;
