@@ -343,3 +343,60 @@ li{
 .DerechosReservados{
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+
+    body {
+      font-size: 8px;
+    }
+    a{
+        font-size: 8px;
+    }
+    p{
+        
+        font-size: 8px;
+    }
+    span{
+        font-size: 8px;
+    }
+   h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .sector-6,.sector-5,.sector-4,.section-2, .sector-1 >h1 {
+        font-size: 20px;
+    }
+    .sector-2 >h2 {
+        font-size: 18px;
+    }
+    .section-1>h2{
+        font-size: 18px;
+    }
+    .section-1>p{
+        font-size: 10px;
+    }
+    .section-1>a{
+        font-size: 10px;
+    }
+    .section-2>h2{
+        font-size: 18px;
+    }
+    .section-2>p{
+        font-size: 10px;
+    }
+    .section-2>a{
+        font-size: 10px;
+    }
+    .sector-3>h2{
+        font-size: 18px;
+    }
+    .sector-3>p{
+        font-size: 10px;
+    }
+    .copyright{
+        font-size: 20px;
+    }
+    
+   
+  }
