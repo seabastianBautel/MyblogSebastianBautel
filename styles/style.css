@@ -65,49 +65,54 @@ body{
     margin-left: 50px;
 }
 .sector-2{
+    background-color: #ffffff;
     text-align: left;
    display: flex;
-   flex-direction: column;
-   align-items: center;
+   flex-direction:column;
+   position: relative;
     width: 100%;
     height: auto;
-    position:absolute;
-    background-color:azures;
+    
+    
 }
 .sector-2 >h2{
+    font-size: 40px;
+    padding-left:  15vw;
     color: #4831d4;
 }
 .sector-2 >p{
+    padding-left:  15vw;
     color: #4831d4;
-    align-items: center;
     width: 60%;
-    text-align: justify;
-    font-size:medium;
+    text-align: left;
+    font-size:larger;
 }
 .sector-3{
+    text-align: left;
+    padding-left:  15vw;
     margin-top: 80px;
     padding-top: 30px;
     padding-bottom: 30px;
     display:flex;
     flex-direction: column;
     position:relative;
-    align-items: center;
     width: 100%;
     background-color: #4831d4;
 }
 .sector-3 >h2{
+    font-size: 40px;
 color: #ffffff;
    
 }
 .sector-3 >p{
-   
     color: #ffffff;
     align-items: center;
     width: 60%;
-    font-size:small;
+    font-size:larger;
    
 }
 .sector-4{
+    padding-left: 35px;
     margin-top: 80px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -119,12 +124,13 @@ color: #ffffff;
     background-color: white;
 }
 .sector-4 >.section-1{
+    
     color: #4831d4;
 width: 80%;
 height: 300px;
 font-size: smaller;
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
     background-color:whitesmoke;
     border-bottom: 2px solid #4831d4;
 }
@@ -137,15 +143,18 @@ font-size: smaller;
    margin-right: 20px;
 }
 .section-1 >p{
+    font-size: 18px;
     width: 40%;
     padding-left: 60px;
 }
 .section-1 >h2{
+    font-size: 30px;
     padding-left: 60px;
     width: 40%;
     
 }
 .section-1 >a{
+    font-size: 18px;
     padding-top: 15px;
     padding-left: 25px;
     width: 40%;
@@ -158,23 +167,25 @@ font-size: smaller;
 }
 
 .section-2 >p{
+    font-size: 18px;
     width: 40%;
     padding-left: 60px;
 }
 .section-2 >h2{
+    font-size: 30px;
     padding-left: 60px;
     width: 40%;
     
 }
 .section-2 >a{
-    font-size: small;
-    padding-top: 15px;
+    font-size: 18px;
+    padding-top: 20px;
     padding-left: 25px;
     width: 40%;
     height: 30px;
     margin-left: 60px;
     position: absolute; /* Establece la posición absoluta para el párrafo */
-    bottom: 100px; /* Coloca el párrafo en la parte inferior del contenedor */
+    bottom: 30px; /* Coloca el párrafo en la parte inferior del contenedor */
     border: 2px solid #4831d4;
     text-decoration: none;
 }
