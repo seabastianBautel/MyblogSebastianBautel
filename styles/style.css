@@ -388,6 +388,9 @@ li{
     .section-2>a{
         font-size: 10px;
     }
+    .sector-3{
+        width: auto;
+    }
     .sector-3>h2{
         font-size: 18px;
     }
